@@ -60,7 +60,7 @@ System.out.println("Result: " + result);
 ## File Structure
 
 ```bash
-ss24_Vodopianova_Alena/ 
+Abgabe1-Alena-Vodopianova
 ├──  Calculator-Example/
 │   ├──  pom.xml
 │   └──  src/ 
@@ -78,7 +78,14 @@ ss24_Vodopianova_Alena/
 ## Exercises
 
 - [Exercise 1](exercise1.md)
-- Exercise 2 (to be added)
+  
+  >*Description*: Create a basic README file and practice
+  > Markdown syntax (headings, links, images).
+- [Exercise 2](exercise2.md)
+
+  >*Description*: Create core Git commands (init, add,
+  > commit, push) and GitHub workflows.
+
 - Exercise 3 (to be added)
 - Exercise 4 (to be added)
 - Exercise 5 (to be added)
@@ -87,3 +94,6 @@ ss24_Vodopianova_Alena/
 ## Author
 >
 >*Alena Vodopianova*
+
+- **GitHub Profile:** [Alena Vodopianova](https://github.com/Alena-Vodopianova)
+- **University:** [FH Joanneum](https://www.fh-joanneum.at/)
