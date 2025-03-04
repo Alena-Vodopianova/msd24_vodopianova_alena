@@ -20,8 +20,8 @@ A simple calculator for basic mathematical operations. This project serves as an
 
     - Add project files to Git:
 
-     ```sh
-     git commit -m "Initial commit"
+    ```sh
+     git add .
      ```
 
     - Commit the initial version:
@@ -61,17 +61,17 @@ System.out.println("Result: " + result);
 
 ```bash
 Abgabe1-Alena-Vodopianova
-├──  Calculator-Example/
-│   ├──  pom.xml
-│   └──  src/ 
-│        └── main
-│            ├── java/at/fhj/iit/CalculatorImpl.java
-│            └── java/at/fhj/iit/ICalculator.java
+├── Calculator-Example/
+│   ├── pom.xml
+│   └── src/ 
+│       └── main
+│           ├── java/at/fhj/iit/CalculatorImpl.java
+│           └── java/at/fhj/iit/ICalculator.java
 ├── README-Vodopianova-Alena.md
 ├── exercise1.md
 └── resources/
-    └──  images
-         └──  ex1_1.jpg
+    └── images
+         └── ex1_1.jpg
 
 ```
 
