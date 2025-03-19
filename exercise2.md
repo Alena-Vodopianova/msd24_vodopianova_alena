@@ -1,9 +1,9 @@
-# Git kennenlerne
+# Getting to know Git
 
 ## Configuration Commands
 
-| Command|Description|
-|--------|-----------|
+| **Command**|**Description**|
+|------------|---------------|
 | `git config --global user.name`| Set your global username for Git.|
 | `git config --global user.email`| Set your global email for Git.|
 | `git config --list`| List all Git configuration settings.|
