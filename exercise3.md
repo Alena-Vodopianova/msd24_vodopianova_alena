@@ -35,9 +35,9 @@
   ![Projektstruktur](resources/images/ex3_1.png)
 
 - **Erfolgreiche Kompilierung**  
-- 
+  
   ![Kompilierung](resources/images/ex3_2.png)
 
 - **Programmausgabe**  
-- 
+  
   ![Ausgabe](resources/images/ex3_3.png)
