@@ -44,8 +44,9 @@
 
 ## Testabdeckung
 
-Die Testabdeckung wurde mittels JUnit-Tests sichergestellt. Ein Screenshot der Coverage ist unter `resources/images/ex4_1.png` zu finden.
+ ![Testabdeckung](resources/images/ex4_1.png)
+ 
 
 ## Test-Driven Development
 
-Für die `factorial()`-Methode wurde der TDD-Ansatz (Red-Green-Refactor) angewendet. Der fehlgeschlagene Test vor der Implementierung ist in `resources/images/ex4_2.png` dokumentiert.
+![Fehlgeschlagene Tests](resources/images/ex4_2.png)
