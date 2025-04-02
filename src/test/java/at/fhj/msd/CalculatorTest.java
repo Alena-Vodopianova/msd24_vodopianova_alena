@@ -2,13 +2,15 @@ package at.fhj.msd;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+@DisplayName("Testing Calculator")
 public class CalculatorTest {
 
     private Calculator calculator;
 
-    @BeforeEach  // Выполняется перед каждым тестом
+    @BeforeEach
     void setUp() {
         calculator = new Calculator();
     }
@@ -22,9 +24,9 @@ public class CalculatorTest {
 
     @Test
     void testMinus() {
-        assertEquals(1, calculator.minus(3, 2));
-        assertEquals(-4, calculator.minus(-2, 2));
-        assertEquals(0, calculator.minus(5, 5));
+        assertEquals(2, calculator.minus(5, 3));
+        assertEquals(-2, calculator.minus(3, 5));
+        assertEquals(0, calculator.minus(0, 0));
     }
 
     @Test
@@ -38,6 +40,23 @@ public class CalculatorTest {
     void testDivide() {
         assertEquals(2.0, calculator.divide(6, 3), 0.001);
         assertEquals(-2.5, calculator.divide(-5, 2), 0.001);
+    }
 
+    @Test
+    @DisplayName("Testing factorial with positive number")
+    void testFactorialPositive() {
+        assertEquals(120, calculator.factorial(5));
+    }
+
+    @Test
+    @DisplayName("Testing factorial with zero")
+    void testFactorialZero() {
+        assertEquals(1, calculator.factorial(0));
+    }
+
+    @Test
+    @DisplayName("Testing factorial with negative number")
+    void testFactorialNegative() {
+        assertEquals(0, calculator.factorial(-1));
     }
 }
