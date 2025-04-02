@@ -1,2 +1,6 @@
 *.html
 *.pdf
+.idea/
+target/
+*.log
+*.class
