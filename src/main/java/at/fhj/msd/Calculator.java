@@ -19,7 +19,12 @@ public class Calculator {
     }
 
     public int factorial(int n) {
-        return 0; // Заглушка
+        if (n < 0) {
+            return 0;
+        }
+        if (n == 0) {
+            return 1;
+        }
+        return n * factorial(n - 1);
     }
-
 }
