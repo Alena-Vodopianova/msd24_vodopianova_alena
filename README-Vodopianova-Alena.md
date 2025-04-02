@@ -86,8 +86,9 @@ Abgabe1-Alena-Vodopianova
   >*Description*: Create core Git commands (init, add,
   > commit, push) and GitHub workflows.
 
-- Exercise 3 (to be added)
-- Exercise 4 (to be added)
+- [Exercise 3](exercise3.md)
+- [Exercise 4](exercise4.md)
+  >Testfälle für die Methoden
 - Exercise 5 (to be added)
 - Exercise 6 (to be added)
 
