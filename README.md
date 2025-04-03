@@ -99,7 +99,9 @@ To configure logging with Log4j, follow these steps:
 - [Exercise 3](exercise3.md)
 - [Exercise 4](exercise4.md)
   >Testfälle für die Methoden
-- Exercise 5 (to be added)
+- [Exercise 5](exercise5.md)
+  >Logging and Git Branching
+  
 - Exercise 6 (to be added)
 
 ## Author
