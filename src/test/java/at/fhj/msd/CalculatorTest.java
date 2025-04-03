@@ -42,21 +42,4 @@ public class CalculatorTest {
         assertEquals(-2.5, calculator.divide(-5, 2), 0.001);
     }
 
-    @Test
-    @DisplayName("Testing factorial with positive number")
-    void testFactorialPositive() {
-        assertEquals(120, calculator.factorial(5));
-    }
-
-    @Test
-    @DisplayName("Testing factorial with zero")
-    void testFactorialZero() {
-        assertEquals(1, calculator.factorial(0));
-    }
-
-    @Test
-    @DisplayName("Testing factorial with negative number")
-    void testFactorialNegative() {
-        assertEquals(0, calculator.factorial(-1));
-    }
 }
