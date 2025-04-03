@@ -11,6 +11,10 @@ public class Main {
         logger.info("This is an INFO message from Main.");
         logger.error("This is an ERROR message from Main.");
 
+        Calculator calculator = new Calculator();
+        int result = calculator.add(2, 3);
+        logger.info("Result of add(2, 3): {}", result);
+
         /*    System.out.println("Alena Vodopianova");
         Calculator calc = new Calculator();
         System.out.println("Sum: " + calc.add(5, 3));
