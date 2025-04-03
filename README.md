@@ -75,6 +75,16 @@ Abgabe1-Alena-Vodopianova
 
 ```
 
+### Log4j Configuration
+To configure logging with Log4j, follow these steps:
+1. Copy `src/main/resources/log4j2.xml.template` to `src/main/resources/log4j2.xml`.
+2. Adjust the `log4j2.xml` file if needed (e.g., change the file path for logs).
+3. The default configuration logs to both the console and a file (`logs/myapp.log`) with a `DEBUG` level.
+
+## Running the Project
+- To run tests: `mvn test`
+- To run the main application: `mvn exec:java`
+
 ## Exercises
 
 - [Exercise 1](exercise1.md)
