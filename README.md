@@ -102,7 +102,7 @@ To configure logging with Log4j, follow these steps:
 - [Exercise 5](exercise5.md)
   >Logging and Git Branching
   
-- Exercise 6 (to be added)
+- [Exercise 6](exercise6.md)
 
 ## Author
 >
